@@ -1,0 +1,21 @@
+/*Transition Example */
+
+.ball {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rebeccapurple;
+  /* transition-property: width, height;
+  transition-duration: 1s;
+  transition-delay: .1s;
+  transition-timing-function: ease;*/
+  transition: all 1s .1s ease;
+}
+
+.ball:hover {
+  width: 150px;
+  height: 150px;
+  border-radius: 25%;
+}
+
+/* Second */
